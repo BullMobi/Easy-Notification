@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2014 AChep@xda <ynkr.wang@gmail.com>
+  ~
+  ~ This program is free software; you can redistribute it and/or
+  ~ modify it under the terms of the GNU General Public License
+  ~ as published by the Free Software Foundation; either version 2
+  ~ of the License, or (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+  ~ MA  02110-1301, USA.
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/scene"
+    android:layout_width="@dimen/media_scene_width"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/metadata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="14dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:paddingStart="14dp">
+
+        <com.bullmobi.base.ui.widgets.TextView
+            android:id="@+id/media_title"
+            style="?acDisplayTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.bullmobi.base.ui.widgets.TextView
+            android:id="@+id/media_subtitle"
+            style="?acDisplaySubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/seek_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingEnd="14dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:paddingStart="14dp"
+        android:minHeight="48dp"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+
+        <com.bullmobi.base.ui.widgets.TextView
+            android:id="@+id/playback_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?acDisplaySubtitle" />
+
+        <SeekBar
+            android:id="@+id/seek_bar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <com.bullmobi.base.ui.widgets.TextView
+            android:id="@+id/duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?acDisplaySubtitle" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/media_btn_size"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/previous"
+            android:layout_width="@dimen/media_btn_size"
+            android:layout_height="match_parent"
+            android:background="@drawable/ripple"
+            android:contentDescription="@string/media_prev_description"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_media_skip_previous_white" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" />
+
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_width="@dimen/media_btn_size"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ripple"
+            android:contentDescription="@string/media_play_description"
+            android:scaleType="centerInside" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.5" />
+
+        <ImageButton
+            android:id="@+id/next"
+            android:layout_width="@dimen/media_btn_size"
+            android:layout_height="match_parent"
+            android:background="@drawable/ripple"
+            android:contentDescription="@string/media_next_description"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_media_skip_next_white" />
+
+    </LinearLayout>
+
+</LinearLayout>

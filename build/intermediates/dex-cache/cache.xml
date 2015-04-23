@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/exploded-aar/com.android.support/palette-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="285506e1cf9d5a66878e2aab3884b3427f8734e9">
+        <dex dex="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/pre-dexed/defaultFlavor/debug/classes-60101545fa1bb8e4c7373f43cb231c70adaacf6d.jar" />
+    </item>
+    <item
+        jar="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/pre-dexed/defaultFlavor/debug/classes-7b076dfee624a243ed74ed4700903445ec6f0639.jar" />
+    </item>
+    <item
+        jar="/home/neil/adtlinux64/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/pre-dexed/defaultFlavor/debug/support-annotations-22.0.0-b4805ce9930d85d1a9df9d79e5cc0918c48c0b44.jar" />
+    </item>
+    <item
+        jar="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.7.1.3/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d76fc419df46a5d8eaa334b5b52ba86d65534078">
+        <dex dex="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/pre-dexed/defaultFlavor/debug/classes-ed71c453812cb9f4bad97dae2eba907233b5e254.jar" />
+    </item>
+    <item
+        jar="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/exploded-aar/com.android.support/support-v13/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="def3eff2b7b4774d96ae15b07b3fc0111edbfe24">
+        <dex dex="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/pre-dexed/defaultFlavor/debug/internal_impl-22.0.0-90029338b0564c33884377ee977c2cc430e1839a.jar" />
+    </item>
+    <item
+        jar="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/pre-dexed/defaultFlavor/debug/internal_impl-22.0.0-c85e92ef2603f1a592ff58f1c351e0be7e845336.jar" />
+    </item>
+    <item
+        jar="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/exploded-aar/me.grantland/autofittextview/0.2.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="972ca945f0cf5ff0765ab94fa8e1a90661ea197a">
+        <dex dex="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/pre-dexed/defaultFlavor/debug/classes-eacf42d879f3b463dfd36209e3e400c2c4a07898.jar" />
+    </item>
+    <item
+        jar="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/pre-dexed/defaultFlavor/debug/classes-92b98f504bf25aa59cd865c6c3366b2e6f6ce85a.jar" />
+    </item>
+    <item
+        jar="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/exploded-aar/com.larswerkman/HoloColorPicker/1.4/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5d5a825cbf0f67237377034c2c4edf9ba7e60fbe">
+        <dex dex="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/pre-dexed/defaultFlavor/debug/classes-cd41c8b6e23c1841e4c2addefcc91097108bcf33.jar" />
+    </item>
+    <item
+        jar="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/pre-dexed/defaultFlavor/debug/classes-21f01806e5b20a0231f97bf3917527110823f66b.jar" />
+    </item>
+    <item
+        jar="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/exploded-aar/org.solovyev.android/checkout/0.6.2/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5d9442adc59f0bb009b89478189e267c89102e4f">
+        <dex dex="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/pre-dexed/defaultFlavor/debug/classes-a42e4fc071e4ec5edca6a52c89644a6e5d2afc2a.jar" />
+    </item>
+    <item
+        jar="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/exploded-aar/com.android.support/support-v13/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7f9cca1caa023a880b00c382bcc5c90245ae4895">
+        <dex dex="/home/neil/lionbulidapk/EasyNotification/LockNotifications/app/build/intermediates/pre-dexed/defaultFlavor/debug/classes-c54434663394b7aeea21d95f0a1550920352fe07.jar" />
+    </item>
+
+</items>

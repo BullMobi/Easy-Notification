@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2014 AChep@xda <ynkr.wang@gmail.com>
+  ~
+  ~ This program is free software; you can redistribute it and/or
+  ~ modify it under the terms of the GNU General Public License
+  ~ as published by the Free Software Foundation; either version 2
+  ~ of the License, or (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+  ~ MA  02110-1301, USA.
+  -->
+<resources>
+
+    <declare-styleable name="ProgressBar">
+        <attr name="mirrored" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="BatteryMeterView">
+        <attr name="battery_height" format="dimension" />
+        <attr name="battery_width" format="dimension" />
+        <attr name="battery_padding" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TextView">
+        <attr name="font" format="string" />
+        <attr name="font_beforeApi" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="NotificationWidget">
+        <attr name="messageItemLayout" format="reference" />
+        <attr name="messageMaxLines" format="integer" />
+        <attr name="actionItemLayout" format="reference" />
+        <attr name="actionItemShowIcon" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="NotificationMessages">
+        <attr name="maxLines" format="integer" />
+        <attr name="highlightMessages" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="Theme">
+
+        <!-- Dialog styles -->
+        <attr name="dialogTitleStyle" format="reference" />
+        <attr name="dialogMessageStyle" format="reference" />
+
+        <!-- Dashboard -->
+        <attr name="dashboardCategoryTitle" format="reference" />
+        <attr name="dashboardCategoryBackground" format="reference|color" />
+
+        <!-- EasyNotification -->
+        <attr name="acDisplayTitle" format="reference" />
+        <attr name="acDisplaySubtitle" format="reference" />
+        <attr name="acDisplayMessage" format="reference" />
+        <attr name="acDisplayAction" format="reference" />
+        <attr name="acDisplayLargeClock" format="reference" />
+        <attr name="acDisplaySmallClock" format="reference" />
+
+        <!-- Main -->
+        <attr name="colorSecondary" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="DashboardTile">
+        <attr name="dashboard_id" format="string" />
+        <attr name="dashboard_icon" format="reference" />
+        <attr name="dashboard_title" format="reference|string" />
+        <attr name="dashboard_summary" format="reference|string" />
+        <attr name="dashboard_fragment" format="string" />
+    </declare-styleable>
+
+</resources>

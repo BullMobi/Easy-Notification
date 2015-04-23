@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2014 AChep@xda <ynkr.wang@gmail.com>
+  ~
+  ~ This program is free software; you can redistribute it and/or
+  ~ modify it under the terms of the GNU General Public License
+  ~ as published by the Free Software Foundation; either version 2
+  ~ of the License, or (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+  ~ MA  02110-1301, USA.
+  -->
+<resources>
+
+    <!-- The default value of the master-switch -->
+    <bool name="config_default_enabled">false</bool>
+    <bool name="config_default_keyguard_enabled">false</bool>
+    <bool name="config_default_keyguard_without_notifies_enabled">true</bool>
+    <bool name="config_default_active_mode_enabled">false</bool>
+    <bool name="config_default_active_mode_without_notifies_enabled">true</bool>
+    <bool name="config_default_enabled_only_while_charging">false</bool>
+    <bool name="config_default_notify_wake_up_on">true</bool>
+    <bool name="config_default_ui_show_wallpaper">false</bool>
+    <bool name="config_default_inactive_time_enabled">false</bool>
+    <bool name="config_default_ui_status_battery_sticky">false</bool>
+    <bool name="config_default_ui_full_screen">true</bool>
+    <bool name="config_default_feel_widget_pinnable">true</bool>
+    <bool name="config_default_feel_widget_readable">false</bool>
+    <bool name="config_default_feel_screen_off_after_last_notify">false</bool>
+    <bool name="config_default_ui_unlock_animation">true</bool>
+    <bool name="config_default_dev_sensors_dump">false</bool>
+    <bool name="config_default_ui_override_fonts">true</bool>
+    <bool name="config_default_ui_emoticons">true</bool>
+    <bool name="config_default_keyguard_respect_inactive_time">false</bool>
+    <bool name="config_default_active_mode_respect_inactive_time">true</bool>
+    <bool name="config_default_active_mode_active_charging">true</bool>
+    <bool name="config_default_double_tap_to_sleep">true</bool>
+    <bool name="config_default_active_mode_disable_on_low_battery">false</bool>
+    <integer name="config_default_timeout_normal">10000</integer>
+    <integer name="config_default_timeout_short">5000</integer>
+    <integer name="config_default_inactive_time_from">60</integer>
+    <integer name="config_default_inactive_time_to">300</integer>
+    <integer name="config_default_ui_show_shadow_dynamic_bg">3</integer>
+    <integer name="config_default_ui_icon_size_dp">56</integer>
+    <integer name="config_default_notify_min_priority">0</integer>
+    <integer name="config_default_notify_max_priority">2</integer>
+    <integer name="config_default_privacy_mode">0</integer>
+
+</resources>

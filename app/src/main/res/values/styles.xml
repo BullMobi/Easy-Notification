@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2014 AChep@xda <ynkr.wang@gmail.com>
+  ~
+  ~ This program is free software; you can redistribute it and/or
+  ~ modify it under the terms of the GNU General Public License
+  ~ as published by the Free Software Foundation; either version 2
+  ~ of the License, or (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+  ~ MA  02110-1301, USA.
+  -->
+<resources>
+
+
+    <!--
+        Dialogs
+        -->
+
+    <style name="MaterialDialog" />
+
+    <style name="MaterialDialog.Title" parent="MaterialDialog">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textSize">24sp</item>
+
+        <!-- Use custom font on Android KitKat or lower. -->
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="font">roboto_condensed</item>
+        <item name="font_beforeApi">21</item>
+    </style>
+
+    <style name="MaterialDialog.Message" parent="MaterialDialog">
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textSize">16sp</item>
+
+        <!-- Use custom font on Android KitKat or lower. -->
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="font">roboto_light</item>
+        <item name="font_beforeApi">21</item>
+    </style>
+
+    <!--
+        EasyNotification
+        -->
+
+    <style name="MaterialEasyNotification" />
+
+    <style name="MaterialEasyNotification.Title" parent="MaterialEasyNotification">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">@color/primary_text_material_dark</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+
+        <!-- Use custom font on Android KitKat or lower. -->
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="font">roboto_condensed</item>
+        <item name="font_beforeApi">21</item>
+    </style>
+
+    <style name="MaterialEasyNotification.Subtitle" parent="MaterialEasyNotification">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/secondary_text_material_dark</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:maxLines">1</item>
+
+        <!-- Use custom font on Android KitKat or lower. -->
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="font">roboto_condensed</item>
+        <item name="font_beforeApi">21</item>
+    </style>
+
+    <style name="MaterialEasyNotification.Message" parent="MaterialEasyNotification">
+        <item name="android:textColor">@color/primary_text_material_dark</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="MaterialEasyNotification.Action" parent="MaterialEasyNotification">
+        <item name="android:background">?android:listChoiceBackgroundIndicator</item>
+        <item name="android:textColor">@color/secondary_text_material_dark</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+
+        <!-- Use custom font on Android KitKat or lower. -->
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="font">roboto_medium</item>
+        <item name="font_beforeApi">21</item>
+    </style>
+
+    <style name="MaterialEasyNotification.LargeClock" parent="MaterialEasyNotification" >
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textSize">85sp</item>
+        <item name="android:maxLines">1</item>
+
+        <!-- Use custom font on Android KitKat or lower. -->
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="font">roboto_thin</item>
+        <item name="font_beforeApi">21</item>
+    </style>
+
+    <style name="MaterialEasyNotification.SmallClock" parent="MaterialEasyNotification" >
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+
+        <!-- Use custom font on Android KitKat or lower. -->
+        <item name="font">roboto_regular</item>
+        <item name="font_beforeApi">21</item>
+    </style>
+
+    <!--
+        Settings
+        -->
+
+    <style name="MaterialDashboard" />
+
+    <style name="MaterialDashboard.Category_title" parent="MaterialDashboard">
+        <item name="android:textColor">?colorAccent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_vertical</item>
+
+        <!-- Use custom font on Android KitKat or lower. -->
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="font">roboto_medium</item>
+        <item name="font_beforeApi">21</item>
+    </style>
+
+    <style name="MaterialListSeparator" parent="MaterialDashboard.Category_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dashboard_category_title_height</item>
+    </style>
+
+    <!--
+        Basic styles
+        -->
+
+    <style name="margin_content_horizontal">
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="margin_content" parent="margin_content_horizontal">
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <style name="padding_content_horizontal">
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="padding_content" parent="padding_content_horizontal">
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+    </style>
+
+</resources>

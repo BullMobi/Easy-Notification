@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2014 AChep@xda <ynkr.wang@gmail.com>
+  ~
+  ~ This program is free software; you can redistribute it and/or
+  ~ modify it under the terms of the GNU General Public License
+  ~ as published by the Free Software Foundation; either version 2
+  ~ of the License, or (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+  ~ MA  02110-1301, USA.
+  -->
+<resources>
+
+    <style name="Base.MaterialTheme" parent="Theme.AppCompat" >
+        <item name="android:windowContentOverlay">@drawable/bg_window_overlay_dark</item>
+        <item name="android:listSeparatorTextViewStyle">@style/MaterialListSeparator</item>
+    </style>
+
+    <style name="MaterialTheme" parent="Base.MaterialTheme">
+        <item name="colorAccent">@color/accent_color</item>
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_color_dark</item>
+        <item name="colorSecondary">@color/secondary_color</item>
+        
+        <!-- Dialog -->
+        <item name="dialogTitleStyle">@style/MaterialDialog.Title</item>
+        <item name="dialogMessageStyle">@style/MaterialDialog.Message</item>
+
+        <!-- Main styles -->
+        <item name="acDisplayTitle">@style/MaterialEasyNotification.Title</item>
+        <item name="acDisplaySubtitle">@style/MaterialEasyNotification.Subtitle</item>
+        <item name="acDisplayMessage">@style/MaterialEasyNotification.Message</item>
+        <item name="acDisplayAction">@style/MaterialEasyNotification.Action</item>
+        <item name="acDisplayLargeClock">@style/MaterialEasyNotification.LargeClock</item>
+        <item name="acDisplaySmallClock">@style/MaterialEasyNotification.SmallClock</item>
+    </style>
+
+    <style name="Base.MaterialTheme.Fullscreen" parent="MaterialTheme" />
+
+    <style name="MaterialTheme.Fullscreen" parent="Base.MaterialTheme.Fullscreen">
+        <!-- Theme.Holo.NoActionBar.Fullscreen -->
+        <item name="windowActionBar">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!--
+        EasyNotification
+        -->
+
+    <style name="Base.MaterialTheme.EasyNotification" parent="MaterialTheme.Fullscreen" />
+
+    <style name="MaterialTheme.EasyNotification" parent="Base.MaterialTheme.EasyNotification">
+        <item name="android:inAnimation">@null</item>
+        <item name="android:outAnimation">@null</item>
+
+        <item name="android:windowBackground">@color/keyguard_background</item>
+        <item name="android:colorBackground">@color/keyguard_background</item>
+        <item name="colorPrimary">@android:color/black</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+    </style>
+
+    <style name="MaterialTheme.EasyNotification.Wallpaper" parent="MaterialTheme.EasyNotification">
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowBackground">@color/keyguard_background_semi</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+
+    <!--
+        Dashboard
+        -->
+
+    <style name="MaterialTheme.Dashboard" parent="MaterialTheme">
+        <item name="android:windowBackground">?colorSecondary</item>
+        <item name="dashboardCategoryTitle">@style/MaterialDashboard.Category_title</item>
+        <item name="dashboardCategoryBackground">@drawable/bg_dashboard_category_dark</item>
+    </style>
+
+    <!--
+        Snake
+        -->
+
+    <style name="MaterialTheme.Snake" parent="MaterialTheme.Fullscreen">
+    </style>
+
+</resources>
